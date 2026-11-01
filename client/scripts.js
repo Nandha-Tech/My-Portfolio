@@ -173,7 +173,7 @@ const animateOnScroll = () => {
   });
 };
 
-// Set initial state for animated elements
+
 document.querySelectorAll('.tech-logo, .education-item, .project-card, .contact-item').forEach(element => {
   element.style.opacity = '0';
   element.style.transform = 'translateY(20px)';
